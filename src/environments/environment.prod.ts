@@ -1,3 +1,6 @@
+const baseUrl = process.env.BACK_URL;
+
 export const environment = {
-  production: true
+  production: false,
+  baseUrl
 };
