@@ -2,7 +2,26 @@
   color: green;
 }
 
-.img-banner{
-  width: 80vw;
+.header{
   padding-left: 5rem;
+  position: fixed;
+}
+
+.img-banner{
+  width: 75vw;
+  height: 40vh;
+}
+
+.footer{
+  color: #000000;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding: 0 10 0 10;
+  text-align: center;
+}
+
+.content{
+  padding-top: 18%;
 }
