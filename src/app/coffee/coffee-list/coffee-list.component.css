@@ -1,0 +1,13 @@
+.tr-header{
+  color:#ffffff;
+  background-color: #000000;
+}
+
+.container-fluid{
+  padding-left: 5rem;
+  padding-top: 1.5rem;
+}
+
+.table-coffee{
+  width: 81%;
+}

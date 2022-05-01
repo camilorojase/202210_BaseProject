@@ -1,3 +1,8 @@
 * [lang^=en] {
   color: green;
 }
+
+.img-banner{
+  width: 80vw;
+  padding-left: 5rem;
+}

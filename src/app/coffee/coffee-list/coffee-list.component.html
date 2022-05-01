@@ -1,18 +1,24 @@
 <div class="container-fluid">
-  <h2 class="text-center">coffees</h2>
-  <div class="row">
-    <div *ngFor="let coffee of coffees" class="p-2 col-12 col-md-6 col-lg-4">
-      <div class="card top-0 start-50 translate-middle-x card-coffee" style="width: 70%;">
-        <img [src]="coffee.imagen" class="card-img-top" [alt]="coffee.nombre">
-        <div class="card-body">
-          <h5 class="card-title">{{coffee.nombre}}</h5>
-          <p class="card-text">{{coffee.tipo}}</p>
-          <p class="card-text">{{coffee.region}}</p>
-          <p class="card-text">{{coffee.sabor}}</p>
-          <p class="card-text">{{coffee.altura}}</p>
-        </div>
-      </div>
+  <div class="row table-coffee">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr class="tr-header">
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Región</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let coffee of coffees" >
+            <th scope="row">{{ coffee.id }}</th>
+            <td>{{ coffee.nombre}}</td>
+            <td>{{ coffee.tipo}}</td>
+            <td>{{ coffee.region}}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
-
