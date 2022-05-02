@@ -4,7 +4,7 @@ export class Coffee {
   tipo: string;
   region: string;
   sabor: string;
-  altura: string;
+  altura: number;
   imagen: string;
 
   constructor (
@@ -13,7 +13,7 @@ export class Coffee {
     tipo: string,
     region: string,
     sabor: string,
-    altura: string,
+    altura: number,
     imagen: string
   ){
     this.id = id;
